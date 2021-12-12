@@ -1,0 +1,6 @@
+Flyweight：享元模式
+	Integer的valueOf方法，IntegerCache
+	 * Integer使用了享元模式，在经常使用的valueOf方法中有IntegerCache
+	 * 使用的值在-128到127范围内，都会直接从cache中取，这些值早就创建好了，
+	 * 所以使用的值在Integer范围内的值创建出来的对象是同一个，然而超过了这个
+	 * 范围之后的值，则不相同
