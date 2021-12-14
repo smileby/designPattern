@@ -1,4 +1,4 @@
-package com.baiyun.designpatterns;
+package com.baiyun.demo1;
 
 /**
  * @author baiyun
