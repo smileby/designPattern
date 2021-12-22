@@ -1,14 +1,11 @@
 package com.test.service.demo1.test;
 
 
-import org.junit.Test;
-
 import com.test.service.demo1.context.CountPriceContext;
 
 public class CountPriceContextTest {
 
-	@Test
-	public void test() {
+	public static void main(String[] args) {
 		CountPriceContext context = new CountPriceContext();
 		Double countPriceJD = context.countPrice(1, 10000.0);
 		Double countPriceWX = context.countPrice(2, 10000.0);
